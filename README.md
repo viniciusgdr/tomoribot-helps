@@ -24,8 +24,10 @@ Sugestão de Comandos ou Funções
 Retorna o Status do BOT
 
 <details><summary><b>Tipos de Retornos</b></summary>
-Retorno (Success) - Type: Button
-    ```
+
+1. Retorno (Success) - Type: Button:
+
+    ```sh
     Tempo de Resposta: X Segundos
     ```
 </details>
@@ -49,3 +51,5 @@ Retorna os tops rankings do grupo em relação do maior para o menor.
     /saldo
 ```
 Checar seu Saldo
+
+## Administração
