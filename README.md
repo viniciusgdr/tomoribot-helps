@@ -121,8 +121,9 @@ A Mensagem marcada será deletada
 
 
 ## Utilitários de Administradores
+Funções para moderação do grupo ou aprimoramentos
 
-<details><summary><b>Customizações</b></summary>
+<details><summary><b>Lista de Funções</b></summary>
 
 * #### Auto Sticker
     ```sh
@@ -153,30 +154,28 @@ Banimento de imagens/videos inapropriádos.
     ```
     /porn
     ```
-
-</details>
-
 * #### Boas Vindas
-```
-    /welcome
-```
+    ```
+        /welcome
+    ```
 Anunciar as Boas-vindas ao entrar no Grupo.
 
 <details><summary><b>Customizações</b></summary>
 
-1. Anexar Mensagens
+    1. Anexar Mensagens
 
     ```sh
-        /setwelcome
+    /setwelcome
     ```
+
     | Tipo       | Descrição                                   |
     | :--------- | :------------------------------------------ |
-    | `texto` | **Obrigatório**. Mensagem desejada |
+    | `texto`  | **Obrigatório**. Mensagem desejada |
 
-2. Desafixar Mensagens
+    2. Desafixar Mensagens
     ```sh
         /delwelcome
     ```
 </details>
-
+</details>
 
