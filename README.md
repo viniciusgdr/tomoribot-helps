@@ -422,3 +422,86 @@ Emoji para Sticker
     /xnxx
 ```
 </details>
+## Outros
+
+<details><summary><b>Funções</b></summary>
+
+* #### Procurar Putas na sua Cidade (+18).
+```
+    /putas
+```
+
+* #### Procurar Videos do Youtube
+```
+    /ytsearch
+```
+
+* #### Procurar Papeis de Parede
+```
+    /wallpaper
+```
+
+* #### Procurar Papeis de Parede no Pinterest
+```
+    /pinterest
+```
+
+* #### Procurar Imagens no Google
+```
+    /gimage
+```
+
+* #### Procurar Lista de Canais da TV Aberta e Fechada
+```
+    /programação-tv
+```
+
+* #### Rastreio de Encomendas do Correios
+```
+    /correios
+```
+* #### Envie uma foto do amigo com o comando e veja.
+```
+    /sonho
+```
+* #### ???
+```
+    /gay
+```
+
+* #### Ephoto 360 Efeitos
+```
+    /ephoto360 [tema] [texto]
+```
+<details><summary><b>Temas</b></summary>
+
+| Efeito                                          |
+|:---------
+| hacker
+| glass
+| glass-cat
+| natal
+| glow
+| blackpink
+| starwars
+
+</details>
+
+* #### Text Pro Efeitos
+```
+    /textpro [tema] [texto]
+```
+<details><summary><b>Temas</b></summary>
+
+| Efeito                                          |
+|:---------
+| neon
+| sea
+| natal
+| scifi
+| lapis
+| glitch
+| space
+
+</details>
+</details>
