@@ -35,6 +35,8 @@ Retorna o Status do BOT
 ## Utilitários
 Nenhum dos comandos de "Utilitários" requer administrador.
 
+<details><summary><b>Funções</b></summary>
+
 * #### Recursos do Grupo
 ```
     /recursos
@@ -58,6 +60,7 @@ Retorna os tops rankings do grupo em relação do maior para o menor.
     /saldo
 ```
 Checar seu Saldo
+</details>
 
 ## Administração
 Os comandos de "Administração" requer administrador.
