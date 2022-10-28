@@ -122,35 +122,40 @@ A Mensagem marcada será deletada
 
 ## Utilitários de Administradores
 
+<details><summary><b>Customizações</b></summary>
+
 * #### Auto Sticker
-```
+    ```sh
     /autosticker
-```
+    ```
 
 * #### Auto Texto
-```
+    ```
     /autotexto
-```
+    ```
 
 * #### NSFW
-```
+    ```
     /nsfw
-```
+    ```
 Banimento de imagens/videos inapropriádos.
 * #### Anti Fake
-```
+    ```
     /antifake
-```
+    ```
 
 * #### Anti Link
-```
+    ```
     /antilink
-```
+    ```
 
 * #### Ativação de Conteúdo +18
-```
+    ```
     /porn
-```
+    ```
+
+</details>
+
 * #### Boas Vindas
 ```
     /welcome
