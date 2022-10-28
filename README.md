@@ -201,6 +201,7 @@ Retorna todos os Ghosts do Grupo
 | 5| `dias` | (não obrigatório) Dias desejados para começar a contar |
 
 </details>
+
 ## Diversão
 <details><summary><b>Funções</b></summary>
 
@@ -298,5 +299,54 @@ Emoji para Sticker
 * #### Efeito Esquilo
 ```
     /esquilo
+```
+</details>
+
+## Jogos
+
+<details><summary><b>Funções</b></summary>
+
+* #### Pedra, papel e Tesoura
+```
+    /ppt
+```
+* #### Jogo do Espelho
+```
+    /espelho
+```
+* #### Jogo do Anagrama
+```
+    /anagrama
+```
+* #### Forca
+```
+    /forca
+```
+* #### Jogo da Roleta Russa com Amigos
+```
+    /roleta-russa
+```
+
+* #### Jogo Blaze Crash
+```
+    /crash
+```
+* #### Jogo Blaze Double
+```
+    /double
+```
+* #### Caça Níquel
+```
+    /caça-níquel
+```
+
+* #### Blackjack
+```
+    /21
+```
+
+* #### Jogo da Velha
+```
+    /ttt
 ```
 </details>
