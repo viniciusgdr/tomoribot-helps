@@ -36,14 +36,21 @@
 
     <!-- end custom head snippets -->
     <style>
-        [data-theme="dark"] {
-            background-color: #111 !important;
-            color: #eee;
+        body {
+            color: white;
+            background-color: #131313;
+        }
+        #containerDarker {
+            background-color: #1f2122;
+            color: white;
+        }
+        #containerList {
+            background-color: black;
         }
     </style>
 </head>
 
-<body data-theme="dark">
+<body>
     <div class="container-lg px-3 my-5 markdown-body">
         <h1 id="tomoribot-whatsapp---comandos">TomoriBOT WhatsApp - Comandos</h1>
         <p>Ajuda de Comandos da TomoriBOT WhatsApp</p>
@@ -54,18 +61,18 @@
                 <h4 id="sugerir-comandos">Sugerir Comandos</h4>
             </li>
         </ul>
-        <pre><code>    /sugerir [texto]
+        <pre id="containerDarker"><code>    /sugerir [texto]
 </code></pre>
         <p>Sugestão de Comandos ou Funções</p>
         <table>
             <thead>
-                <tr>
+                <tr id="containerList">
                     <th align="left">Tipo</th>
                     <th align="left">Descrição</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr id="containerList">
                     <td align="left"><code>texto</code></td>
                     <td align="left"><strong>Obrigatório</strong>. Sugestão desejada</td>
                 </tr>
@@ -76,7 +83,7 @@
                 <h4 id="status-do-bot">Status do BOT</h4>
             </li>
         </ul>
-        <pre><code>    /ping
+        <pre id="containerDarker"><code>    /ping
 </code></pre>
         <p>Retorna o Status do BOT</p>
         <details>
@@ -102,7 +109,7 @@
                     <h4 id="recursos-do-grupo">Recursos do Grupo</h4>
                 </li>
             </ul>
-            <pre><code>    /recursos
+            <pre id="containerDarker"><code>    /recursos
 </code></pre>
             <p>Retorna as funcionabilidades ativas ou desativadas do grupo.</p>
             <ul>
@@ -110,7 +117,7 @@
                     <h4 id="descrio-do-grupo">Descrição do Grupo</h4>
                 </li>
             </ul>
-            <pre><code>    /desc
+            <pre id="containerDarker"><code>    /desc
 </code></pre>
             <p>Retorna a Descrição do Grupo</p>
             <ul>
@@ -118,7 +125,7 @@
                     <h4 id="ranking">Ranking</h4>
                 </li>
             </ul>
-            <pre><code>    /ranking
+            <pre id="containerDarker"><code>    /ranking
 </code></pre>
             <p>Retorna os tops rankings do grupo em relação do maior para o menor.</p>
             <ul>
@@ -126,14 +133,14 @@
                     <h4 id="calculadora">Calculadora</h4>
                 </li>
             </ul>
-            <pre><code>    /math
+            <pre id="containerDarker"><code>    /math
 </code></pre>
             <ul>
                 <li>
                     <h4 id="saldo">Saldo</h4>
                 </li>
             </ul>
-            <pre><code>    /saldo
+            <pre id="containerDarker"><code>    /saldo
 </code></pre>
             <p>Checar seu Saldo</p>
         </details>
@@ -146,31 +153,31 @@
                     <h4 id="fechamento--abrimento-de-grupos">Fechamento / Abrimento de Grupos</h4>
                 </li>
             </ul>
-            <pre><code>    /grp
+            <pre id="containerDarker"><code>    /grp
 </code></pre>
             <ul>
                 <li>
                     <h4 id="link-do-grupo">Link do Grupo</h4>
                 </li>
             </ul>
-            <pre><code>    /linkgrp
+            <pre id="containerDarker"><code>    /linkgrp
 </code></pre>
             <ul>
                 <li>
                     <h4 id="mudar-nome-do-grupo">Mudar nome do Grupo</h4>
                 </li>
             </ul>
-            <pre><code>    /mudarnome [nome]
+            <pre id="containerDarker"><code>    /mudarnome [nome]
 </code></pre>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Tipo</th>
                         <th align="left">Descrição</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left"><code>nome</code></td>
                         <td align="left"><strong>Obrigatório</strong>. Novo nome do grupo</td>
                     </tr>
@@ -181,17 +188,17 @@
                     <h4 id="mudar-descrio-do-grupo">Mudar descrição do Grupo</h4>
                 </li>
             </ul>
-            <pre><code>    /mudarnome [descricao]
+            <pre id="containerDarker"><code>    /mudarnome [descricao]
 </code></pre>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Tipo</th>
                         <th align="left">Descrição</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left"><code>descricao</code></td>
                         <td align="left"><strong>Obrigatório</strong>. Novo nome do grupo</td>
                     </tr>
@@ -202,7 +209,7 @@
                     <h4 id="zerar-dados-do-bot-no-grupo">Zerar dados do BOT no Grupo</h4>
                 </li>
             </ul>
-            <pre><code>    /zerartudo
+            <pre id="containerDarker"><code>    /zerartudo
 </code></pre>
             <p>Esta ação apaga todos os dados do grupo, assim tudo será desligado e os membros terão XP, level, etc.
                 zerados.</p>
@@ -211,18 +218,18 @@
                     <h4 id="banir-usurios">Banir Usuários</h4>
                 </li>
             </ul>
-            <pre><code>    /banir @menção
+            <pre id="containerDarker"><code>    /banir @menção
 </code></pre>
             <p>O Usuário será banido do grupo.</p>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Tipo</th>
                         <th align="left">Descrição</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left"><code>menção</code></td>
                         <td align="left"><strong>Obrigatório</strong>. Mencionar o usuário que deseja</td>
                     </tr>
@@ -233,18 +240,18 @@
                     <h4 id="atualizar-admins">Atualizar Admins</h4>
                 </li>
             </ul>
-            <pre><code>    /atualizar-admins @menção
+            <pre id="containerDarker"><code>    /atualizar-admins @menção
 </code></pre>
             <p>O Usuário será Promovido/Rebaixado de Administrador</p>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Tipo</th>
                         <th align="left">Descrição</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left"><code>menção</code></td>
                         <td align="left"><strong>Obrigatório</strong>. Mencionar o usuário que deseja</td>
                     </tr>
@@ -255,18 +262,18 @@
                     <h4 id="apagar-mensagem">Apagar Mensagem</h4>
                 </li>
             </ul>
-            <pre><code>    /atualizar-admins [menção]
+            <pre id="containerDarker"><code>    /atualizar-admins [menção]
 </code></pre>
             <p>A Mensagem marcada será deletada</p>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Tipo</th>
                         <th align="left">Descrição</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left"><code>menção</code></td>
                         <td align="left"><strong>Obrigatório</strong>. Mencionar a mensagem</td>
                     </tr>
@@ -289,12 +296,12 @@
                 </li>
                 <li>
                     <h4 id="auto-texto">Auto Texto</h4>
-                    <pre><code>/autotexto
+                    <pre id="containerDarker"><code>/autotexto
 </code></pre>
                 </li>
                 <li>
                     <h4 id="nsfw">NSFW</h4>
-                    <pre><code>/nsfw
+                    <pre id="containerDarker"><code>/nsfw
 </code></pre>
                 </li>
             </ul>
@@ -302,22 +309,22 @@
             <ul>
                 <li>
                     <h4 id="anti-fake">Anti Fake</h4>
-                    <pre><code>/antifake
+                    <pre id="containerDarker"><code>/antifake
 </code></pre>
                 </li>
                 <li>
                     <h4 id="anti-link">Anti Link</h4>
-                    <pre><code>/antilink
+                    <pre id="containerDarker"><code>/antilink
 </code></pre>
                 </li>
                 <li>
                     <h4 id="ativao-de-contedo-18">Ativação de Conteúdo +18</h4>
-                    <pre><code>/porn
+                    <pre id="containerDarker"><code>/porn
 </code></pre>
                 </li>
                 <li>
                     <h4 id="boas-vindas">Boas Vindas</h4>
-                    <pre><code>/welcome
+                    <pre id="containerDarker"><code>/welcome
 </code></pre>
                 </li>
             </ul>
@@ -335,13 +342,13 @@
                         </div>
                         <table>
                             <thead>
-                                <tr>
+                                <tr id="containerList">
                                     <th align="left">Tipo</th>
                                     <th align="left">Descrição</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr id="containerList">
                                     <td align="left"><code>texto</code></td>
                                     <td align="left"><strong>Obrigatório</strong>. Mensagem desejada</td>
                                 </tr>
@@ -368,19 +375,19 @@
                     <h4 id="lista-ghosts">Lista Ghosts</h4>
                 </li>
             </ul>
-            <pre><code>    /listaghost [dias?]
+            <pre id="containerDarker"><code>    /listaghost [dias?]
 </code></pre>
             <p>Retorna todos os Ghosts do Grupo</p>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Exemplo</th>
                         <th align="left">Tipo</th>
                         <th align="left">Descrição</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left">5</td>
                         <td align="left"><code>dias</code></td>
                         <td align="left">(não obrigatório) Dias desejados para começar a contar</td>
@@ -396,7 +403,7 @@
                     <h4 id="sorteio-de-usurios">Sorteio de Usuários</h4>
                 </li>
             </ul>
-            <pre><code>    /sortear
+            <pre id="containerDarker"><code>    /sortear
 </code></pre>
         </details>
         <h2 id="stickers">Stickers</h2>
@@ -407,7 +414,7 @@
                     <h4 id="sticker">Sticker</h4>
                 </li>
             </ul>
-            <pre><code>    /Sticker
+            <pre id="containerDarker"><code>    /Sticker
 </code></pre>
             <p>Imagem para Sticker</p>
             <ul>
@@ -415,18 +422,18 @@
                     <h4 id="roubar">Roubar</h4>
                 </li>
             </ul>
-            <pre><code>    /Sticker [author] + [nome]
+            <pre id="containerDarker"><code>    /Sticker [author] + [nome]
 </code></pre>
             <p>Mudar nome da figurinha</p>
             <table>
                 <thead>
-                    <tr>
+                    <tr id="containerList">
                         <th align="left">Exemplo</th>
                         <th align="left">Tipo</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="containerList">
                         <td align="left">Tomori + BOT</td>
                         <td align="left"><code>texto</code></td>
                     </tr>
@@ -437,7 +444,7 @@
                     <h4 id="emoji">Emoji</h4>
                 </li>
             </ul>
-            <pre><code>    /emoji 👍
+            <pre id="containerDarker"><code>    /emoji 👍
 </code></pre>
             <p>Emoji para Sticker</p>
             <ul>
@@ -445,35 +452,35 @@
                     <h4 id="texto-para-sticker">Texto Para Sticker</h4>
                 </li>
             </ul>
-            <pre><code>    /ttp
+            <pre id="containerDarker"><code>    /ttp
 </code></pre>
             <ul>
                 <li>
                     <h4 id="voz-do-google">Voz do Google</h4>
                 </li>
             </ul>
-            <pre><code>    /tts
+            <pre id="containerDarker"><code>    /tts
 </code></pre>
             <ul>
                 <li>
                     <h4 id="voz-do-patolino">Voz do Patolino</h4>
                 </li>
             </ul>
-            <pre><code>    /patolino
+            <pre id="containerDarker"><code>    /patolino
 </code></pre>
             <ul>
                 <li>
                     <h4 id="voz-do-iber">Voz do Iberê</h4>
                 </li>
             </ul>
-            <pre><code>    /ibere
+            <pre id="containerDarker"><code>    /ibere
 </code></pre>
             <ul>
                 <li>
                     <h4 id="voz-do-fausto">Voz do Faustão</h4>
                 </li>
             </ul>
-            <pre><code>    /faustao
+            <pre id="containerDarker"><code>    /faustao
 </code></pre>
         </details>
         <h2 id="manipulao-de-udios">Manipulação de Áudios</h2>
@@ -485,56 +492,56 @@
                 </li>
             </ul>
             <p>Áudio em Velocidade 2x.</p>
-            <pre><code>    /fastaudio
+            <pre id="containerDarker"><code>    /fastaudio
 </code></pre>
             <ul>
                 <li>
                     <h4 id="reverter-audio">Reverter Audio</h4>
                 </li>
             </ul>
-            <pre><code>    /audio-reverso
+            <pre id="containerDarker"><code>    /audio-reverso
 </code></pre>
             <ul>
                 <li>
                     <h4 id="estourar-volume">Estourar Volume</h4>
                 </li>
             </ul>
-            <pre><code>    /bass
+            <pre id="containerDarker"><code>    /bass
 </code></pre>
             <ul>
                 <li>
                     <h4 id="estourar-volume-5x">Estourar Volume (5x)</h4>
                 </li>
             </ul>
-            <pre><code>    /estourar
+            <pre id="containerDarker"><code>    /estourar
 </code></pre>
             <ul>
                 <li>
                     <h4 id="udio-tartaruga">Áudio tartaruga</h4>
                 </li>
             </ul>
-            <pre><code>    /slow
+            <pre id="containerDarker"><code>    /slow
 </code></pre>
             <ul>
                 <li>
                     <h4 id="efeito-8d">Efeito 8D</h4>
                 </li>
             </ul>
-            <pre><code>    /8d
+            <pre id="containerDarker"><code>    /8d
 </code></pre>
             <ul>
                 <li>
                     <h4 id="efeito-delay">Efeito Delay</h4>
                 </li>
             </ul>
-            <pre><code>    /delay
+            <pre id="containerDarker"><code>    /delay
 </code></pre>
             <ul>
                 <li>
                     <h4 id="efeito-esquilo">Efeito Esquilo</h4>
                 </li>
             </ul>
-            <pre><code>    /esquilo
+            <pre id="containerDarker"><code>    /esquilo
 </code></pre>
         </details>
         <h2 id="jogos">Jogos</h2>
@@ -545,70 +552,70 @@
                     <h4 id="pedra-papel-e-tesoura">Pedra, papel e Tesoura</h4>
                 </li>
             </ul>
-            <pre><code>    /ppt
+            <pre id="containerDarker"><code>    /ppt
 </code></pre>
             <ul>
                 <li>
                     <h4 id="jogo-do-espelho">Jogo do Espelho</h4>
                 </li>
             </ul>
-            <pre><code>    /espelho
+            <pre id="containerDarker"><code>    /espelho
 </code></pre>
             <ul>
                 <li>
                     <h4 id="jogo-do-anagrama">Jogo do Anagrama</h4>
                 </li>
             </ul>
-            <pre><code>    /anagrama
+            <pre id="containerDarker"><code>    /anagrama
 </code></pre>
             <ul>
                 <li>
                     <h4 id="forca">Forca</h4>
                 </li>
             </ul>
-            <pre><code>    /forca
+            <pre id="containerDarker"><code>    /forca
 </code></pre>
             <ul>
                 <li>
                     <h4 id="jogo-da-roleta-russa-com-amigos">Jogo da Roleta Russa com Amigos</h4>
                 </li>
             </ul>
-            <pre><code>    /roleta-russa
+            <pre id="containerDarker"><code>    /roleta-russa
 </code></pre>
             <ul>
                 <li>
                     <h4 id="jogo-blaze-crash">Jogo Blaze Crash</h4>
                 </li>
             </ul>
-            <pre><code>    /crash
+            <pre id="containerDarker"><code>    /crash
 </code></pre>
             <ul>
                 <li>
                     <h4 id="jogo-blaze-double">Jogo Blaze Double</h4>
                 </li>
             </ul>
-            <pre><code>    /double
+            <pre id="containerDarker"><code>    /double
 </code></pre>
             <ul>
                 <li>
                     <h4 id="caa-nquel">Caça Níquel</h4>
                 </li>
             </ul>
-            <pre><code>    /caça-níquel
+            <pre id="containerDarker"><code>    /caça-níquel
 </code></pre>
             <ul>
                 <li>
                     <h4 id="blackjack">Blackjack</h4>
                 </li>
             </ul>
-            <pre><code>    /21
+            <pre id="containerDarker"><code>    /21
 </code></pre>
             <ul>
                 <li>
                     <h4 id="jogo-da-velha">Jogo da Velha</h4>
                 </li>
             </ul>
-            <pre><code>    /ttt
+            <pre id="containerDarker"><code>    /ttt
 </code></pre>
         </details>
         <h2 id="downloaders">Downloaders</h2>
@@ -619,105 +626,105 @@
                     <h4 id="baixar-udio-no-youtube">Baixar Áudio no YouTube</h4>
                 </li>
             </ul>
-            <pre><code>    /play
+            <pre id="containerDarker"><code>    /play
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-udio-no-youtube-via-link">Baixar Áudio no YouTube Via Link</h4>
                 </li>
             </ul>
-            <pre><code>    /ytmp3
+            <pre id="containerDarker"><code>    /ytmp3
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-video-no-youtube-via-link">Baixar Video no YouTube Via Link</h4>
                 </li>
             </ul>
-            <pre><code>    /ytmp4
+            <pre id="containerDarker"><code>    /ytmp4
 </code></pre>
             <ul>
                 <li>
                     <h4 id="localizar-playlists-do-youtube-via-url">Localizar playlists do Youtube via URL.</h4>
                 </li>
             </ul>
-            <pre><code>    /playlist
+            <pre id="containerDarker"><code>    /playlist
 </code></pre>
             <ul>
                 <li>
                     <h4 id="converter-msicas-do-spotify-para-youtube">Converter músicas do Spotify para Youtube.</h4>
                 </li>
             </ul>
-            <pre><code>    /spotifytoyoutube
+            <pre id="containerDarker"><code>    /spotifytoyoutube
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-imgvidreels-do-instagram">Baixar IMG/VID/REELS do Instagram</h4>
                 </li>
             </ul>
-            <pre><code>    /igdl
+            <pre id="containerDarker"><code>    /igdl
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-imgvid-do-reddit">Baixar IMG/VID do Reddit</h4>
                 </li>
             </ul>
-            <pre><code>    /reddit
+            <pre id="containerDarker"><code>    /reddit
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-videos-do-facebook-watch">Baixar Videos do Facebook Watch</h4>
                 </li>
             </ul>
-            <pre><code>    /fbdl
+            <pre id="containerDarker"><code>    /fbdl
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-apks-da-google-play">Baixar APKs da Google Play</h4>
                 </li>
             </ul>
-            <pre><code>    /apk
+            <pre id="containerDarker"><code>    /apk
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-apks-do-aptoide">Baixar APKs do Aptoide</h4>
                 </li>
             </ul>
-            <pre><code>    /aptoide
+            <pre id="containerDarker"><code>    /aptoide
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-videos-do-tiktok">Baixar videos do TikTok</h4>
                 </li>
             </ul>
-            <pre><code>    /tiktok
+            <pre id="containerDarker"><code>    /tiktok
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixarpesquisar-msicas-no-soundcloud">Baixar/Pesquisar músicas no Soundcloud</h4>
                 </li>
             </ul>
-            <pre><code>    /sddl
+            <pre id="containerDarker"><code>    /sddl
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-videos-do-twitter">Baixar videos do Twitter</h4>
                 </li>
             </ul>
-            <pre><code>    /twitter
+            <pre id="containerDarker"><code>    /twitter
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-videos-do-xvideos">Baixar videos do Xvideos</h4>
                 </li>
             </ul>
-            <pre><code>    /xvdl
+            <pre id="containerDarker"><code>    /xvdl
 </code></pre>
             <ul>
                 <li>
                     <h4 id="baixar-videos-do-xnxx">Baixar videos do XNXX</h4>
                 </li>
             </ul>
-            <pre><code>    /xnxx
+            <pre id="containerDarker"><code>    /xnxx
 </code></pre>
         </details>
         <h2 id="outros">Outros</h2>
@@ -728,35 +735,35 @@
                     <h4 id="procurar-putas-na-sua-cidade-18">Procurar Putas na sua Cidade (+18).</h4>
                 </li>
             </ul>
-            <pre><code>    /putas
+            <pre id="containerDarker"><code>    /putas
 </code></pre>
             <ul>
                 <li>
                     <h4 id="procurar-videos-do-youtube">Procurar Videos do Youtube</h4>
                 </li>
             </ul>
-            <pre><code>    /ytsearch
+            <pre id="containerDarker"><code>    /ytsearch
 </code></pre>
             <ul>
                 <li>
                     <h4 id="procurar-papeis-de-parede">Procurar Papeis de Parede</h4>
                 </li>
             </ul>
-            <pre><code>    /wallpaper
+            <pre id="containerDarker"><code>    /wallpaper
 </code></pre>
             <ul>
                 <li>
                     <h4 id="procurar-papeis-de-parede-no-pinterest">Procurar Papeis de Parede no Pinterest</h4>
                 </li>
             </ul>
-            <pre><code>    /pinterest
+            <pre id="containerDarker"><code>    /pinterest
 </code></pre>
             <ul>
                 <li>
                     <h4 id="procurar-imagens-no-google">Procurar Imagens no Google</h4>
                 </li>
             </ul>
-            <pre><code>    /gimage
+            <pre id="containerDarker"><code>    /gimage
 </code></pre>
             <ul>
                 <li>
@@ -764,14 +771,14 @@
                         Fechada</h4>
                 </li>
             </ul>
-            <pre><code>    /programação-tv
+            <pre id="containerDarker"><code>    /programação-tv
 </code></pre>
             <ul>
                 <li>
                     <h4 id="rastreio-de-encomendas-do-correios">Rastreio de Encomendas do Correios</h4>
                 </li>
             </ul>
-            <pre><code>    /correios
+            <pre id="containerDarker"><code>    /correios
 </code></pre>
             <ul>
                 <li>
@@ -779,50 +786,50 @@
                     </h4>
                 </li>
             </ul>
-            <pre><code>    /sonho
+            <pre id="containerDarker"><code>    /sonho
 </code></pre>
             <ul>
                 <li>
                     <h4 id="section">???</h4>
                 </li>
             </ul>
-            <pre><code>    /gay
+            <pre id="containerDarker"><code>    /gay
 </code></pre>
             <ul>
                 <li>
                     <h4 id="ephoto-360-efeitos">Ephoto 360 Efeitos</h4>
                 </li>
             </ul>
-            <pre><code>    /ephoto360 [tema] [texto]
+            <pre id="containerDarker"><code>    /ephoto360 [tema] [texto]
 </code></pre>
             <details>
                 <summary><b>Temas</b></summary>
                 <table>
                     <thead>
-                        <tr>
+                        <tr id="containerList">
                             <th align="left">Efeito</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">hacker</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">glass</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">glass-cat</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">natal</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">glow</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">blackpink</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">starwars</td>
                         </tr>
                     </tbody>
@@ -833,36 +840,36 @@
                     <h4 id="text-pro-efeitos">Text Pro Efeitos</h4>
                 </li>
             </ul>
-            <pre><code>    /textpro [tema] [texto]
+            <pre id="containerDarker"><code>    /textpro [tema] [texto]
 </code></pre>
             <details>
                 <summary><b>Temas</b></summary>
                 <table>
                     <thead>
-                        <tr>
+                        <tr id="containerList">
                             <th align="left">Efeito</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">neon</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">sea</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">natal</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">scifi</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">lapis</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">glitch</td>
                         </tr>
-                        <tr>
+                        <tr id="containerList">
                             <td align="left">space</td>
                         </tr>
                     </tbody>
@@ -878,19 +885,6 @@
         </div>
 
     </div>
-    <script>
-        for (let table of document.getElementsByTagName('table')) {
-            table.style.backgroundColor = '#111'
-            table.style.color = 'white'
-        }
-        for (let table of [
-            ...document.getElementsByTagName('tr'),
-            ...document.getElementsByTagName('pre'),
-        ]) {
-            table.style.backgroundColor = '#111'
-            table.style["border"] = "5px solid #ACACAC"
-        }
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
         integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
