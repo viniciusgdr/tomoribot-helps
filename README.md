@@ -61,6 +61,10 @@ Checar seu Saldo
 
 ## Administração
 Os comandos de "Administração" requer administrador.
+
+<details><summary><b>Funções</b></summary>
+
+
 * #### Fechamento / Abrimento de Grupos
 ```
     /grp
@@ -120,6 +124,8 @@ A Mensagem marcada será deletada
 | `menção` | **Obrigatório**. Mencionar a mensagem |
 
 
+</details>
+
 ## Utilitários de Administradores
 Funções para moderação do grupo ou aprimoramentos
 
@@ -171,10 +177,28 @@ Anunciar as Boas-vindas ao entrar no Grupo.
     | :--------- | :------------------------------------------ |
     | `texto`  | **Obrigatório**. Mensagem desejada |
 
-    2. Desafixar Mensagens
+2. Desafixar Mensagens
     ```sh
     /delwelcome
     ```
 </details>
 </details>
 
+
+## Ghosts
+
+* #### Lista Ghosts
+```
+    /listaghost [dias?]
+```
+Retorna todos os Ghosts do Grupo
+| Exemplo | Tipo       | Descrição                                   |
+|:---------| :--------- | :------------------------------------------ |
+| 5| `dias` | (não obrigatório) Dias desejados para começar a contar |
+
+## Diversão
+
+* #### Sorteio de Usuários
+```
+    /sortear
+```
