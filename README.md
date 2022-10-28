@@ -422,7 +422,9 @@ Emoji para Sticker
     /xnxx
 ```
 </details>
+
 ## Outros
+
 
 <details><summary><b>Funções</b></summary>
 
