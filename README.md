@@ -55,6 +55,12 @@ Retorna a Descrição do Grupo
 ```
 Retorna os tops rankings do grupo em relação do maior para o menor.
 
+* #### Calculadora
+```
+    /math
+```
+
+
 * #### Saldo
 ```
     /saldo
@@ -348,5 +354,71 @@ Emoji para Sticker
 * #### Jogo da Velha
 ```
     /ttt
+```
+</details>
+
+## Downloaders
+
+<details><summary><b>Funções</b></summary>
+
+* #### Baixar Áudio no YouTube
+```
+    /play
+```
+* #### Baixar Áudio no YouTube Via Link
+```
+    /ytmp3
+```
+* #### Baixar Video no YouTube Via Link
+```
+    /ytmp4
+```
+* #### Localizar playlists do Youtube via URL.
+```
+    /playlist
+```
+* #### Converter músicas do Spotify para Youtube.
+```
+    /spotifytoyoutube
+```
+* #### Baixar IMG/VID/REELS do Instagram
+```
+    /igdl
+```
+* #### Baixar IMG/VID do Reddit
+```
+    /reddit
+```
+* #### Baixar Videos do Facebook Watch
+```
+    /fbdl
+```
+* #### Baixar APKs da Google Play
+```
+    /apk
+```
+* #### Baixar APKs do Aptoide
+```
+    /aptoide
+```
+* #### Baixar videos do TikTok
+```
+    /tiktok
+```
+* #### Baixar/Pesquisar músicas no Soundcloud
+```
+    /sddl
+```
+* #### Baixar videos do Twitter
+```
+    /twitter
+```
+* #### Baixar videos do Xvideos
+```
+    /xvdl
+```
+* #### Baixar videos do XNXX
+```
+    /xnxx
 ```
 </details>
