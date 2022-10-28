@@ -10,6 +10,7 @@ Ajuda de Comandos da TomoriBOT WhatsApp
     /sugerir [texto]
 ```
 Sugestão de Comandos ou Funções
+
 | Tipo       | Descrição                                   |
 | :--------- | :------------------------------------------ |
 | `texto` | **Obrigatório**. Sugestão desejada |
@@ -87,6 +88,7 @@ Os comandos de "Administração" requer administrador.
 ```
     /mudarnome [nome]
 ```
+
 | Tipo       | Descrição                                   |
 | :--------- | :------------------------------------------ |
 | `nome` | **Obrigatório**. Novo nome do grupo |
@@ -95,6 +97,7 @@ Os comandos de "Administração" requer administrador.
 ```
     /mudarnome [descricao]
 ```
+
 | Tipo       | Descrição                                   |
 | :--------- | :------------------------------------------ |
 | `descricao` | **Obrigatório**. Novo nome do grupo |
@@ -110,6 +113,7 @@ Esta ação apaga todos os dados do grupo, assim tudo será desligado e os membr
     /banir @menção
 ```
 O Usuário será banido do grupo.
+
 | Tipo       | Descrição                                   |
 | :--------- | :------------------------------------------ |
 | `menção` | **Obrigatório**. Mencionar o usuário que deseja |
@@ -119,6 +123,7 @@ O Usuário será banido do grupo.
     /atualizar-admins @menção
 ```
 O Usuário será Promovido/Rebaixado de Administrador
+
 | Tipo       | Descrição                                   |
 | :--------- | :------------------------------------------ |
 | `menção` | **Obrigatório**. Mencionar o usuário que deseja |
@@ -128,6 +133,7 @@ O Usuário será Promovido/Rebaixado de Administrador
     /atualizar-admins [menção]
 ```
 A Mensagem marcada será deletada
+
 | Tipo       | Descrição                                   |
 | :--------- | :------------------------------------------ |
 | `menção` | **Obrigatório**. Mencionar a mensagem |
@@ -202,6 +208,7 @@ Anunciar as Boas-vindas ao entrar no Grupo.
     /listaghost [dias?]
 ```
 Retorna todos os Ghosts do Grupo
+
 | Exemplo | Tipo       | Descrição                                   |
 |:---------| :--------- | :------------------------------------------ |
 | 5| `dias` | (não obrigatório) Dias desejados para começar a contar |
@@ -232,6 +239,7 @@ Imagem para Sticker
     /Sticker [author] + [nome]
 ```
 Mudar nome da figurinha
+
 | Exemplo | Tipo                                          |
 |:---------| :--------- |
 | Tomori + BOT| `texto` |
@@ -475,6 +483,7 @@ Emoji para Sticker
 ```
     /ephoto360 [tema] [texto]
 ```
+
 <details><summary><b>Temas</b></summary>
 
 | Efeito                                          |
@@ -493,6 +502,7 @@ Emoji para Sticker
 ```
     /textpro [tema] [texto]
 ```
+
 <details><summary><b>Temas</b></summary>
 
 | Efeito                                          |
