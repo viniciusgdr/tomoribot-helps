@@ -156,14 +156,13 @@ Banimento de imagens/videos inapropriádos.
     ```
 * #### Boas Vindas
     ```
-        /welcome
+    /welcome
     ```
 Anunciar as Boas-vindas ao entrar no Grupo.
 
 <details><summary><b>Customizações</b></summary>
 
-    1. Anexar Mensagens
-
+1. Anexar Mensagens
     ```sh
     /setwelcome
     ```
@@ -174,7 +173,7 @@ Anunciar as Boas-vindas ao entrar no Grupo.
 
     2. Desafixar Mensagens
     ```sh
-        /delwelcome
+    /delwelcome
     ```
 </details>
 </details>
