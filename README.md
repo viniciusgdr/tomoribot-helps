@@ -5,7 +5,7 @@ Ajuda de Comandos da TomoriBOT WhatsApp
 
 ## DEBUG
 
-#### Sugerir Comandos
+* #### Sugerir Comandos
 ```
     /sugerir [texto]
 ```
@@ -16,7 +16,7 @@ Sugestão de Comandos ou Funções
 
 
 
-#### Status do BOT
+* ####  Status do BOT
 
 ```
     /ping
@@ -34,22 +34,144 @@ Retorna o Status do BOT
 
 ## Utilitários
 Nenhum dos comandos de "Utilitários" requer administrador.
-#### Descrição do Grupo
+
+* #### Recursos do Grupo
+```
+    /recursos
+```
+Retorna as funcionabilidades ativas ou desativadas do grupo.
+
+* #### Descrição do Grupo
 ```
     /desc
 ```
 Retorna a Descrição do Grupo
 
-#### Ranking
+* #### Ranking
 ```
     /ranking
 ```
 Retorna os tops rankings do grupo em relação do maior para o menor.
 
-#### Saldo
+* #### Saldo
 ```
     /saldo
 ```
 Checar seu Saldo
 
 ## Administração
+Os comandos de "Administração" requer administrador.
+* #### Fechamento / Abrimento de Grupos
+```
+    /grp
+```
+
+* #### Link do Grupo
+```
+    /linkgrp
+```
+* #### Mudar nome do Grupo
+```
+    /mudarnome [nome]
+```
+| Tipo       | Descrição                                   |
+| :--------- | :------------------------------------------ |
+| `nome` | **Obrigatório**. Novo nome do grupo |
+
+* #### Mudar descrição do Grupo
+```
+    /mudarnome [descricao]
+```
+| Tipo       | Descrição                                   |
+| :--------- | :------------------------------------------ |
+| `descricao` | **Obrigatório**. Novo nome do grupo |
+
+* #### Zerar dados do BOT no Grupo
+```
+    /zerartudo
+```
+Esta ação apaga todos os dados do grupo, assim tudo será desligado e os membros terão XP, level, etc. zerados.
+
+* #### Banir Usuários
+```
+    /banir @menção
+```
+O Usuário será banido do grupo.
+| Tipo       | Descrição                                   |
+| :--------- | :------------------------------------------ |
+| `menção` | **Obrigatório**. Mencionar o usuário que deseja |
+
+* #### Atualizar Admins
+```
+    /atualizar-admins @menção
+```
+O Usuário será Promovido/Rebaixado de Administrador
+| Tipo       | Descrição                                   |
+| :--------- | :------------------------------------------ |
+| `menção` | **Obrigatório**. Mencionar o usuário que deseja |
+
+* #### Apagar Mensagem
+```
+    /atualizar-admins [menção]
+```
+A Mensagem marcada será deletada
+| Tipo       | Descrição                                   |
+| :--------- | :------------------------------------------ |
+| `menção` | **Obrigatório**. Mencionar a mensagem |
+
+
+## Utilitários de Administradores
+
+* #### Auto Sticker
+```
+    /autosticker
+```
+
+* #### Auto Texto
+```
+    /autotexto
+```
+
+* #### NSFW
+```
+    /nsfw
+```
+Banimento de imagens/videos inapropriádos.
+* #### Anti Fake
+```
+    /antifake
+```
+
+* #### Anti Link
+```
+    /antilink
+```
+
+* #### Ativação de Conteúdo +18
+```
+    /porn
+```
+* #### Boas Vindas
+```
+    /welcome
+```
+Anunciar as Boas-vindas ao entrar no Grupo.
+
+<details><summary><b>Customizações</b></summary>
+
+1. Anexar Mensagens
+
+    ```sh
+        /setwelcome
+    ```
+    | Tipo       | Descrição                                   |
+    | :--------- | :------------------------------------------ |
+    | `texto` | **Obrigatório**. Mensagem desejada |
+
+2. Desafixar Mensagens
+    ```sh
+        /delwelcome
+    ```
+</details>
+
+
