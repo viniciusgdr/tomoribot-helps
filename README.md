@@ -189,6 +189,7 @@ Anunciar as Boas-vindas ao entrar no Grupo.
 
 
 ## Ghosts
+<details><summary><b>Funções</b></summary>
 
 * #### Lista Ghosts
 ```
@@ -199,9 +200,103 @@ Retorna todos os Ghosts do Grupo
 |:---------| :--------- | :------------------------------------------ |
 | 5| `dias` | (não obrigatório) Dias desejados para começar a contar |
 
+</details>
 ## Diversão
+<details><summary><b>Funções</b></summary>
 
 * #### Sorteio de Usuários
 ```
     /sortear
 ```
+
+</details>
+
+## Stickers
+<details><summary><b>Funções</b></summary>
+
+* #### Sticker
+```
+    /Sticker
+```
+Imagem para Sticker
+
+* #### Roubar
+```
+    /Sticker [author] + [nome]
+```
+Mudar nome da figurinha
+| Exemplo | Tipo                                          |
+|:---------| :--------- |
+| Tomori + BOT| `texto` |
+
+* #### Emoji
+```
+    /emoji 👍
+```
+Emoji para Sticker
+
+* #### Texto Para Sticker
+```
+    /ttp
+```
+* #### Voz do Google
+```
+    /tts
+```
+* #### Voz do Patolino
+```
+    /patolino
+```
+* #### Voz do Iberê
+```
+    /ibere
+```
+* #### Voz do Faustão
+```
+    /faustao
+```
+</details>
+
+## Manipulação de Áudios
+
+<details><summary><b>Funções</b></summary>
+
+* #### Áudio mais Rápido
+Áudio em Velocidade 2x.
+```
+    /fastaudio
+```
+
+* #### Reverter Audio
+```
+    /audio-reverso
+```
+
+* #### Estourar Volume
+```
+    /bass
+```
+
+* #### Estourar Volume (5x)
+```
+    /estourar
+```
+
+* #### Áudio tartaruga
+```
+    /slow
+```
+
+* #### Efeito 8D
+```
+    /8d
+```
+* #### Efeito Delay
+```
+    /delay
+```
+* #### Efeito Esquilo
+```
+    /esquilo
+```
+</details>
